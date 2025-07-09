@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+input,
+select {
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.tinymce-gemini-ai-button {
+  background-color: #2563eb;
+  color: white;
+}
+
+.tinymce-gemini-ai-button:hover {
+  background-color: #1d4ed8;
+}
+
+.prose {
+  color: #374151;
+  max-width: none;
+}
+
+.prose h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
